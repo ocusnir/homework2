@@ -6,11 +6,11 @@ import java.util.Random;
 public class Exercise5 {
     public static void main(String[] args) {
 
-        MaxNum();
+        MaxAndMinNum();
 
     }
 
-    static void MaxNum() {
+    static void MaxAndMinNum() {
 
         Random random = new Random();
         int[] arr01 = new int[8];
