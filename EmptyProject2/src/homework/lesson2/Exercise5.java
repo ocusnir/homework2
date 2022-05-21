@@ -13,11 +13,11 @@ public class Exercise5 {
     static void MaxNum() {
 
         Random random = new Random();
-        int[] table02 = new int[8];
+        int[] arr01 = new int[8];
 
-        for(int i = 0; i < table02.length; i++){
-                table02[i] = random.nextInt(100);
-                System.out.print(table02[i] + " ");
+        for(int i = 0; i < arr01.length; i++){
+                arr01[i] = random.nextInt(100);
+                System.out.print(arr01[i] + " ");
 
         }
 
@@ -25,20 +25,20 @@ public class Exercise5 {
 
         //поиск максимального числа
         int a = 0;
-        int max = table02[a];
-        for(int i = 0; i < table02.length; i++){
-                if (table02[i] > max){
-                    max = table02[i];
+        int max = arr01[a];
+        for(int i = 0; i < arr01.length; i++){
+                if (arr01[i] > max){
+                    max = arr01[i];
                     a = i;
                 }
         }
 
         //Поиск минмального числа
         int b = 0;
-        int min = table02[b];
-        for(int i = 0; i < table02.length; i++){
-                if (table02[i] < min){
-                    min = table02[i];
+        int min = arr01[b];
+        for(int i = 0; i < arr01.length; i++){
+                if (arr01[i] < min){
+                    min = arr01[i];
                     b = i;
                 }
         }
